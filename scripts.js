@@ -1,11 +1,5 @@
-const tombol = document.getElementById('myButton')
 const daftar_nama = document.getElementById('daftarNama')
 const tampilkan_nama = document.getElementById('tampilkanNama')
-
-tombol.addEventListener('click', function(event) {
-    alert(event.target.textContent)
-})
-
 
 async function ambilData() {
     const response = await fetch('https://jsonplaceholder.typicode.com/users')
