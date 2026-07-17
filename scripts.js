@@ -1,4 +1,4 @@
-const daftar_nama = document.getElementById('daftarNama')
+const data_wrapper = document.getElementById('dataWrapper')
 const tampilkan_nama = document.getElementById('tampilkanNama')
 
 async function ambilData() {
@@ -11,12 +11,11 @@ async function ambilData() {
     }
     
     tampilkan_nama.addEventListener('click', (event) => {
-        daftar_nama.innerHTML = ''
+        data_wrapper.innerHTML = ''
         for (let i = 0; i < data_nama.length; i++){
             const elementNama = document.createElement('li')
             elementNama.innerText = data_nama[i]
-            daftar_nama.appendChild(elementNama)
-            console.log(data_nama[i])
+            data_wrapper.appendChild(elementNama)
         }
     } )
 }
