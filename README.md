@@ -7,6 +7,7 @@ Halaman profil pribadi sederhana, dibuat sebagai latihan HTML, CSS, dan JavaScri
 - Layout responsif menggunakan Flexbox dan CSS Grid
 - Galeri foto yang menyesuaikan ke 1 kolom di layar mobile
 - Menampilkan daftar user dari API (fetch async/await)
+- Form input dan textarea untuk section Contact Me
 
 ## Teknologi yang Digunakan
 - HTML5

@@ -3,7 +3,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
 
+header h1 {
+    text-align: center;
 }
 
 nav ul {
@@ -12,12 +15,33 @@ nav ul {
     flex-direction: column;
     gap: 20px;
     list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+#bio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .gallery {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr;
     gap: 15px;
+}
+
+#contactMe form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contactMe form button {
+    width: 100px;
+    height: 20px;
+    align-self: flex-end;
 }
 
 @media (min-width: 600px) {
